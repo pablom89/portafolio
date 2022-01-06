@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poiret+One&family=Signika+Negative:wght@300&display=swap');
+$signika:'Signika Negative', sans-serif;
+$poiret:'Poiret One', cursive;
+$secular: 'Secular One', sans-serif;
+$pacifico: 'Pacifico', cursive;
+
+.menu{
+    width: 40%;
+    margin-right: 50px;
+
+    li{
+        list-style-type: none;
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: $signika;
+
+            &:hover{
+                color:lightseagreen;
+            }
+
+        }
+
+        a.active{
+            color: lightskyblue;
+        }
+            
+    }
+}
+
+.links{
+    font-family: $signika;
+    &:hover{
+        color:lightseagreen !important;
+    }
+}
+
+.active{
+    color: black !important;
+}
+
+
+
+.brand{
+    color: white !important;
+    font-family: $signika;
+    cursor: pointer;
+}
