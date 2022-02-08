@@ -7,7 +7,7 @@ $pacifico: 'Pacifico', cursive;
 .card__contact{
 
     background-color: rgb(222, 222, 222, 0.9 );
-    margin-top: 50px;
+    margin-top: 20px;
     height: 500px;
     border-radius: 10px;
 
@@ -20,16 +20,22 @@ $pacifico: 'Pacifico', cursive;
     height: auto;
 }
 
+.contactForm{
+    min-width: 260px;
+    margin: 10px auto !important;
+}
 
 .contenedor-info{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: black;
+    background-color: #040214;;
     color: white;
     border-radius: 7px;
+    min-width: 240px;
+    width: 100%;
 
     a{
         color: white;
