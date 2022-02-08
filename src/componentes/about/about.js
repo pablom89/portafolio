@@ -32,15 +32,13 @@ const About = ({mode, idioma}) => {
             <div className="animate__animated animate__fadeIn animate__slower animate__delay-2s grid-item-about-2">
               <p>
               {idioma.acerca.p3} 
-                <br />
-                {idioma.acerca.p4} 
+                {" " + idioma.acerca.p4} 
               </p>
             </div>
             <div className="animate__animated animate__fadeIn animate__slower animate__delay-2s grid-item-about-3">
               <p>
               {idioma.acerca.p5} 
-                <br />
-                {idioma.acerca.p6} 
+                {" " + idioma.acerca.p6} 
               </p>
             </div>
             <div className="animate__animated animate__bounceInRight animate__delay-1s grid-item-about-4 img-container">

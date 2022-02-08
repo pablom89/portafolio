@@ -9,9 +9,9 @@ const Contact = ({actual}) => {
        
         </div>
         <div className="col-12 col-md-7 card__contact d-flex flex-column justify-content-around align-items-center">
-          {datosDeContacto.map((d) => {
+          {datosDeContacto.map((d, index) => {
             return (
-              <div className="row test d-flex flex-column align-items-center">
+              <div key={index} className="row test d-flex flex-column align-items-center">
                 <a href={d.dir || "#"} target={d.dir && !d.correo ? "_blank" : ""} style={{textDecoration: "none"}}>
                 <div className="col-12 col-sm-8 col-md-10 contenedor-info">
                   {d.icono}
