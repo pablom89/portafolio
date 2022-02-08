@@ -82,7 +82,7 @@ $pacifico: 'Pacifico', cursive;
 }
 input:checked + .slide {
     background-color: #212529;
-    padding-left: 35px;
+    padding-left: 32px;
 }
 input:focus + .slide {
     box-shadow: 0 0 1px #01aeed;
@@ -91,7 +91,7 @@ input:checked + .slide:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-    left: -20px;
+    left: -24px;
 }
 
 .slide.round {

@@ -45,43 +45,43 @@ const Inicio = ({mode, idioma}) => {
               <img
                 src={react}
                 className="skills animate__animated animate__bounceInLeft"
-                style={{ animationDelay: "6.4s" }}
+                style={{ animationDelay: "4s" }}
                 alt="react"
               />
               <img
                 src={javascript}
                 className="skills animate__animated animate__bounceInLeft"
-                style={{ animationDelay: "5.8s" }}
+                style={{ animationDelay: "4s" }}
                 alt="javascript"
               />
               <img
                 src={css}
                 className="skills animate__animated animate__bounceInLeft"
-                style={{ animationDelay: "5.4s" }}
+                style={{ animationDelay: "4s" }}
                 alt="css"
               />
               <img
                 src={html5}
                 className="skills animate__animated animate__bounceInLeft"
-                style={{ animationDelay: "4.8s" }}
+                style={{ animationDelay: "3s" }}
                 alt="html5"
               />
               <img
                 src={bootstrap}
                 className="skills animate__animated animate__bounceInLeft"
-                style={{ animationDelay: "4.3s" }}
+                style={{ animationDelay: "3s" }}
                 alt="bootstrap"
               />
               <img
                 className="skills animate__animated animate__bounceInLeft"
                 src={excel}
                 alt="excel"
-                style={{ borderRadius: "50%", padding: "4px", animationDelay: "3.7s" }}
+                style={{ borderRadius: "50%", padding: "4px", animationDelay: "2s" }}
               />
               <img
                 src={git}
                 className="skills animate__animated animate__bounceInLeft"
-                style={{ animationDelay: "3s" }}
+                style={{ animationDelay: "2s" }}
                 alt="git"
               />
               <img
@@ -93,7 +93,7 @@ const Inicio = ({mode, idioma}) => {
             </div>
             <div
               className="grid-item-5 flex-row d-flex justify-content-start animate__animated animate__fadeIn animate__slower"
-              style={{ animationDelay: "8s" }}
+              style={{ animationDelay: "5s" }}
             >
               <div className="textSkills" style={{ display: "inline-block" }}>
                 {idioma.inicio.works}
@@ -113,7 +113,7 @@ const Inicio = ({mode, idioma}) => {
             <div className="grid-item-3">
               <img
                 className="fotocv animate__animated animate__fadeIn animate__slower"
-                style={{ animationDelay: "9.5s" }}
+                style={{ animationDelay: "5s" }}
                 src={
                   "https://res.cloudinary.com/fotitoscolegio/image/upload/v1644098396/cv/foto-cv_ujacha.png"
                 }
@@ -123,7 +123,7 @@ const Inicio = ({mode, idioma}) => {
           <Link to="/about" onClick={()=> window.scroll(0,0)} style={{textDecoration: "none", cursor:"unset"}}>
           <div
             className="knowMoreAboutMe animate__animated animate__fadeIn animate__slower"
-            style={{ animationDelay: "10s" }}
+            style={{ animationDelay: "6s" }}
           >
             <b className="knowMoreAboutMeHover">{idioma.inicio.knowMe}</b>
           </div>
