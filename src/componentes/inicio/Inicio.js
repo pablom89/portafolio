@@ -109,7 +109,7 @@ const Inicio = ({mode, idioma}) => {
                 className="fotocv animate__animated animate__fadeIn animate__slower"
                 style={{ animationDelay: "4s" }}
                 src={
-                  "https://res.cloudinary.com/fotitoscolegio/image/upload/v1644098396/cv/foto-cv_ujacha.png"
+                  "https://res.cloudinary.com/fotitoscolegio/image/upload/v1644447146/cv/foto_Portafolio_jgkhjm.jpg"
                 }
               />
             </div>
