@@ -7,12 +7,10 @@ export default [
     descrip:
       `Aplicación creada con React y Redux, que permite buscar estacionamientos cercanos en base a un destino ingresado por el usuario. 
        Trabajé con la API de google, la librería Socket.io y para el back-end utilizamos tanto PHP como Node.js.
-       Actualmente se encuentra en fase de desarrollo el registro de los conductores, pero se puede crear un usuario nuevo y dar de alta una cochera, para luego buscarla en el mapa.
        Ingresando la dirección Blamey Lafore 1463, podes ver cocheras cargadas a modo de prueba. `,
     descripEn:
     `Application created with React and Redux, which allows you to search for nearby parking lots based on a destination entered by the user.
     I worked with the google API, the Socket.io library and for the back-end we used both PHP and Node.js.
-    The driver registry is currently in the development phase, but a new user can be created and a garage can be registered, and then search for it on the map.
     By entering the address Blamey Lafore 1463, you can see garages loaded as a test.`,
     link: "https://parking-now.herokuapp.com/" ,
     iframe: (
