@@ -41,55 +41,49 @@ const Inicio = ({mode, idioma}) => {
               >
                 <b>Skills</b>
               </div>
-
+              <div className="animate__animated animate__bounceInLeft animate__delay-3s">
               <img
                 src={react}
-                className="skills animate__animated animate__bounceInLeft"
-                style={{ animationDelay: "4s" }}
+                className="skills"
                 alt="react"
               />
               <img
                 src={javascript}
-                className="skills animate__animated animate__bounceInLeft"
-                style={{ animationDelay: "4s" }}
+                className="skills"
                 alt="javascript"
               />
               <img
                 src={css}
-                className="skills animate__animated animate__bounceInLeft"
-                style={{ animationDelay: "4s" }}
+                className="skills"
                 alt="css"
               />
               <img
                 src={html5}
-                className="skills animate__animated animate__bounceInLeft"
-                style={{ animationDelay: "3s" }}
+                className="skills"
                 alt="html5"
               />
               <img
                 src={bootstrap}
-                className="skills animate__animated animate__bounceInLeft"
-                style={{ animationDelay: "3s" }}
+                className="skills"
                 alt="bootstrap"
               />
               <img
-                className="skills animate__animated animate__bounceInLeft"
+                className="skills"
                 src={excel}
                 alt="excel"
-                style={{ borderRadius: "50%", padding: "4px", animationDelay: "2s" }}
+                style={{ borderRadius: "50%", padding: "4px"}}
               />
               <img
                 src={git}
-                className="skills animate__animated animate__bounceInLeft"
-                style={{ animationDelay: "2s" }}
+                className="skills"
                 alt="git"
               />
               <img
                 src={github}
-                className="skills animate__animated animate__bounceInLeft"
-                style={{ animationDelay: "2s" }}
+                className="skills"
                 alt="github"
               />
+              </div>
             </div>
             <div
               className="grid-item-5 flex-row d-flex justify-content-start animate__animated animate__fadeIn animate__slower"
@@ -113,7 +107,7 @@ const Inicio = ({mode, idioma}) => {
             <div className="grid-item-3">
               <img
                 className="fotocv animate__animated animate__fadeIn animate__slower"
-                style={{ animationDelay: "5s" }}
+                style={{ animationDelay: "4s" }}
                 src={
                   "https://res.cloudinary.com/fotitoscolegio/image/upload/v1644098396/cv/foto-cv_ujacha.png"
                 }
