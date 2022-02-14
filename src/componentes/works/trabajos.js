@@ -12,7 +12,7 @@ export default [
     `Application created with React and Redux, which allows you to search for nearby parking lots based on a destination entered by the user.
     I worked with the google API, the Socket.io library and for the back-end we used both PHP and Node.js.
     By entering the address Blamey Lafore 1463, you can see garages loaded as a test.`,
-    link: "https://parking-now.netlify.app/  | https://parking-now.herokuapp.com/" ,
+    link: "https://parking-now.netlify.app/" ,
     iframe: (
       <iframe
         src="https://parking-now.netlify.app/"
