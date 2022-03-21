@@ -1,6 +1,6 @@
 {
-  "name": "cesar-muzio-app",
-  "version": "0.1.0",
+  "name": "pablo-muzio-app",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",

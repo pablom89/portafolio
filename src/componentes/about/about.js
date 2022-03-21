@@ -1,5 +1,6 @@
-import "./about.scss";
 import { Link } from "react-router-dom";
+
+import "./about.scss";
 import foto from "../../imgs/AboutMe.jpg";
 import react from "../../imgs/react.svg";
 import javascript from "../../imgs/javascript.svg";
@@ -51,8 +52,8 @@ const About = ({mode, idioma}) => {
                 <b>Skills</b>
               </div>
 
-              <img src={react} className="skills " alt="react" />
               <img src={javascript} className="skills " alt="javascript" />
+              <img src={react} className="skills " alt="react" />
               <img src={css} className="skills" alt="css" />
               <img src={html5} className="skills" alt="html5" />
               <img src={bootstrap} className="skills" alt="bootstrap" />
@@ -71,7 +72,7 @@ const About = ({mode, idioma}) => {
               </p>
             </div>
           </div>
-          <div className="animate__animated animate__fadeIn animate__slower animate__delay-2s about-card d-flex align-items-center">
+          {/* <div className="animate__animated animate__fadeIn animate__slower animate__delay-2s about-card d-flex align-items-center">
             <div className="d-flex add-wrap w-100 k justify-content-around">
               <div className="textSkills delLineHeight text-white">
                 <b>{idioma.acerca.p9} </b>
@@ -88,7 +89,7 @@ const About = ({mode, idioma}) => {
               <img className="skills" src={php} alt="php" />
               <img className="skills" src={node} alt="node" />
             </div>
-          </div>
+          </div> */}
           <div className="animate__animated animate__fadeIn animate__slower animate__delay-2s about-card d-flex align-items-center">
             <div className="contenedorIntereses">
               <h3 className="textSkills  text-white text-center">
@@ -102,7 +103,7 @@ const About = ({mode, idioma}) => {
                   <b>Fitness</b>, {idioma.acerca.li2} 
                 </li>
                 <li>
-                  <b>Autodidacta</b>, {idioma.acerca.li3} 
+                  <b>{idioma.acerca.li3T}</b>, {idioma.acerca.li3} 
                 </li>
               </ul>
               <p className="textSkills text-white">

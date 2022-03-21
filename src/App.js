@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -5,18 +6,21 @@ import {
   Redirect,
   NavLink,
 } from "react-router-dom";
-import About from "./componentes/about/about";
-import Inicio from "./componentes/inicio/Inicio";
-import MyWorks from "./componentes/works/works";
-import Contact from "./componentes/contact/contact";
-import "./App.scss";
+
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { useState } from "react";
+
+import "./App.scss";
 import sun from "./imgs/sun.jpeg";
+import About from "./componentes/about/about";
+import Inicio from "./componentes/inicio/Inicio";
+import MyWorks from "./componentes/works/works";
+import Contact from "./componentes/contact/contact";
 import { idiomas } from "./componentes/info.js";
+
+
 
 function App() {
   const [mode, setMode] = useState(true);
