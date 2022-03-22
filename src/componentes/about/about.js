@@ -14,6 +14,7 @@ import excel from "../../imgs/logo-excel-3.png";
 import programador from "../../imgs/Programador.png";
 
 const About = ({ mode, idioma }) => {
+  const left = 'animate__animated animate__bounceInLeft animate__delay-1s';
   const animate = `animate__animated animate__fadeIn animate__slower`;
   const delay = `${animate} animate__delay-2s`;
   const flex = `${delay} d-flex`;
@@ -33,14 +34,14 @@ const About = ({ mode, idioma }) => {
               {idioma.acerca.p2} <img src={programador} alt="programador" />
             </p>
           </div>
-          <div className={`${delay} grid-item-about-2`}>
+          <div className={`${left} grid-item-about-2`}>
             <p>
               {idioma.acerca.p3}
               <br />
               {idioma.acerca.p4}
             </p>
           </div>
-          <div className={`${delay} grid-item-about-3`}>
+          <div className={`${left} grid-item-about-3`}>
             <p>{idioma.acerca.p5 + " " + idioma.acerca.p6}</p>
           </div>
           <div className="animate__animated animate__bounceInRight animate__delay-1s grid-item-about-4 img-container">
