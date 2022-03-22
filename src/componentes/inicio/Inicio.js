@@ -10,11 +10,7 @@ import git from "../../imgs/git.svg";
 import github from "../../imgs/github.svg";
 import excel from "../../imgs/logo-excel-3.png";
 import typescript from "../../imgs/Typescript.png";
-// import mysql from "../../imgs/mysql.svg";
-// import php from "../../imgs/php.svg";
-// import node from "../../imgs/node.svg";
-// import vue from "../../imgs/vue.png";
-// import strapi from "../../imgs/strapi.png";
+
 
 const Inicio = ({ mode, idioma }) => {
   return (
@@ -82,25 +78,7 @@ const Inicio = ({ mode, idioma }) => {
                 <img src={github} className="skills" alt="github" />
               </div>
             </div>
-            {/* <div
-              className="grid-item-5 flex-row d-flex justify-content-start animate__animated animate__fadeIn animate__slower"
-              style={{ animationDelay: "5s" }}
-            >
-              <div className="textSkills" style={{ display: "inline-block" }}>
-                {idioma.inicio.works}
-              </div>
 
-              <img
-                className="skillsStrapi"
-                src={strapi}
-                alt="strapi"
-                style={{ borderRadius: "50%" }}
-              />
-              <img className="skillsStrapi" src={vue} alt="vue" />
-              <img className="skills" src={mysql} alt="mysql" />
-              <img className="skills" src={php} alt="php" />
-              <img className="skills" src={node} alt="node" />
-            </div> */}
             <div className="grid-item-3" style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
               {" "}
               

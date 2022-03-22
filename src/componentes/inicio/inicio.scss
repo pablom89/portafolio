@@ -226,6 +226,9 @@ b.knowMoreAboutMeHover:hover{
 
 @media ( max-width: 767px ){
 
+    .presentacion{
+        max-width: 100vw !important;
+    }
     .skillsExcel{
         margin: 15px 10px 10px 10px;
     }
