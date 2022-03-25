@@ -111,7 +111,7 @@ export const GridContainerAbout = styled.div`
         border: 3px solid #d1ad62;
         box-shadow: 0 0 10px #ffc107;
         width: 200px;
-        height: 200px;
+        height: auto;
     }
 
     img[alt=programador]{
