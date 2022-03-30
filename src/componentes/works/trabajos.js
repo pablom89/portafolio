@@ -26,11 +26,11 @@ export default [
     titulo: "Flama Custom Pizza",
     tituloEn: "Flama Custom Pizza",
     descrip:
-      `Flama custom Pizzas, es un local destinado a la venta de pizzas armadas por los clientes.
+      `Flama Pizzas, es un local destinado a la venta de pizzas armadas por los clientes.
       La App tiene como objetivo brindarle al cliente una interfaz digital, en donde pueda realizar su pedido más rápido. 
       Genera un ticket comanda en donde se detalle el pedido, también cuenta con una sección privada, en donde los propietarios pueden, crear o borrar pizzas y/o toppings.`,
     descripEn:
-    `Flama custom Pizzas, is a place for the sale of personalized pizzas, assembled by customers.
+    `Flama Pizzas, is a place for the sale of personalized pizzas, assembled by customers.
      The App aims to provide clients with a digital interface, where they can place their order faster. It generates a ticket comanda where the order is detailed, it also has a private section, where owners can create or delete pizzas and / or toppings.
      `,
     link: "https://flama-pizzas-app.herokuapp.com/",
