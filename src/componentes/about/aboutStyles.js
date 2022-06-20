@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
     .about-card{
         width: 80%;
         height: auto;
-        background-color: rgb( 207, 207, 207, 0.1);
+        background-color: rgb( 100,100,100,0.6);
         margin-top: 50px;
         border-radius: 25px;        
         padding: 15px;

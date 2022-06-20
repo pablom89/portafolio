@@ -114,14 +114,14 @@ input:checked + .slide:before {
   
   .stars {
     z-index: 0;
-    background: #000 url("https://image.ibb.co/mjnygo/stars.png") repeat top center;
+    background: #000 url("./imgs/stars.webp") 0px 0px repeat;
   }
   
-  .twinkling {
-    z-index: 1;
-    background: transparent url("https://image.ibb.co/ir1DE8/twinkling.png") repeat top center;
-    animation: move-twink-back 200s linear infinite;
-  }
+//   .twinkling {
+//     z-index: 1;
+//     background: transparent url("https://image.ibb.co/ir1DE8/twinkling.png") repeat top center;
+//     animation: move-twink-back 200s linear infinite;
+//   }
 
   .dark-theme, .dark-theme h2{
       color: black !important;
