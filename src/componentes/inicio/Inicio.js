@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import "./inicio.scss";
+import fotoPortafolio from "../../imgs/fotoPortafolio.png";
 import javascript from "../../imgs/javascript.svg";
 import react from "../../imgs/react.svg";
 import css from "../../imgs/css.svg";
@@ -85,9 +86,7 @@ const Inicio = ({ mode, idioma }) => {
               <img
                 className="fotocv animate__animated animate__fadeIn animate__slower"
                 style={{ animationDelay: "4s" }}
-                src={
-                  "https://res.cloudinary.com/fotitoscolegio/image/upload/v1644447146/cv/foto_Portafolio_jgkhjm.jpg"
-                }
+                src={fotoPortafolio}
               />
             </div>
           </div>
