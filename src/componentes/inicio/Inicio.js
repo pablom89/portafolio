@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import "./inicio.scss";
-import fotoPortafolio from "../../imgs/fotoPortafolio.png";
+import fotoPortafolio from "../../imgs/fotoPerfilLinkedin.jpg";
 import javascript from "../../imgs/javascript.svg";
 import react from "../../imgs/react.svg";
 import css from "../../imgs/css.svg";
@@ -10,7 +10,7 @@ import bootstrap from "../../imgs/bootstrap.svg";
 import git from "../../imgs/git.svg";
 import github from "../../imgs/github.svg";
 import excel from "../../imgs/logo-excel-3.png";
-import typescript from "../../imgs/Typescript.png";
+import sass from "../../imgs/sass.png";
 
 
 const Inicio = ({ mode, idioma }) => {
@@ -59,8 +59,8 @@ const Inicio = ({ mode, idioma }) => {
 
                 <img
                   className="skills"
-                  src={typescript}
-                  alt="typescript"
+                  src={sass}
+                  alt="sass"
                   style={{ borderRadius: "50%", padding: "4px" }}
                 />
 
