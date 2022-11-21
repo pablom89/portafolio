@@ -56,8 +56,9 @@ export const idiomas = {
             p4:'My orientation is more towards the front-end but I have also knowledge of Node.js y MySQL',
             p5:`I love making useful applications that add value and make our lives easier.`,
             p6:'I focus on speed and creating intuitive user interfaces.',
-            p7:`My first steps with technology were using Excel in an accounting study, to automate routine tasks of my work while in my free time I learned all about Javascript. Functions, loops, data types, structures, recursion...`,
-            p8:`At the end of 2021 I started Henry's bootcamp, which was a very good experience to consolidate and test my knowledge. I completed 2 modules of the program, in which I went through different tests and exercises that you can see in my Github repository.`,
+            p7:`My first steps with technology were learning all about Javascript. Functions, loops, data types, structures, recursion...`,
+            p8:`At the end of 2021 I started Henry's bootcamp, which was a very good experience to consolidate and test my knowledge. I completed 2 modules of the program, in which I went through different tests and exercises that you can see in my Github repository. 
+            At the end of September 2022 I completed the react acceleration in alkemy. `,
             p9:"I also have knowledge with the following technologies",
             p10:`Interests and more about me`,
             li3T: 'Autodidact',
