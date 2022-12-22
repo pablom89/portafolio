@@ -36,7 +36,7 @@ export default [
     link: "https://flama-pizzas-app.herokuapp.com/",
     iframe: (
       <iframe
-        src="https://flama-pizzas-app.herokuapp.com/"
+        src="https://flamapizzas.onrender.com/"
         title="flamaApp"
         className="iframe"
         style={{ border: "none" }}
