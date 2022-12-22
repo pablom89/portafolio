@@ -33,7 +33,7 @@ export default [
     `Flama Pizzas, is a place for the sale of personalized pizzas, assembled by customers.
      The App aims to provide clients with a digital interface, where they can place their order faster. It generates a ticket comanda where the order is detailed, it also has a private section, where owners can create or delete pizzas and / or toppings.
      `,
-    link: "https://flama-pizzas-app.herokuapp.com/",
+    link: "https://flamapizzas.onrender.com/",
     iframe: (
       <iframe
         src="https://flamapizzas.onrender.com/"
